@@ -1,5 +1,18 @@
 # Supersonic Sniper Bot
 
+# ⚠️ STATUS: ARCHIVED (Reference Only)
+
+**NOTE:** This repository contains the **v1 CLI implementation** of the Supersonic Engine. It is preserved here as a reference for **Low-Level Transaction Composition** and **MEV Patterns** in Rust.
+
+**Why is this archived?**
+* This codebase targets **Legacy AMM Dependencies** (Pre-OpenBook/V4 standard) which are no longer the primary liquidity source.
+* I have moved development to the **proprietary v2 engine** (Private), which supports:
+    * **Modern Liquidity Sources:** Raydium CLMM, CPMM, and Pump.fun migration logic.
+    * **Geyser Plugins:** For sub-200ms account streaming (bypassing RPC polling).
+    * **Dynamic CU Optimization:** For precise priority fee estimation during congestion.
+
+**For inquiries regarding the v2 High-Frequency Architecture, contact me directly.**
+
 **Supersonic Sniper** is a ~~high performance~~ (not enough) trading bot designed to execute rapid buy and sell operations on the Raydium decentralized exchange (DEX) within the Solana blockchain network. Leveraging ultra-fast detection and execution capabilities, the bot aims to capitalize on new token listings and market movements with minimal latency.
 
 [Step-by-step guide to running the bot](https://github.com/yoozzeek/Supersonic-Memecoin-Sniper-Bot/blob/master/public/README.md)
